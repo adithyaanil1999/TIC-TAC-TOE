@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script src="script.js"></script>
+	<script
+	  src="https://code.jquery.com/jquery-3.3.1.min.js"
+	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous">
+	</script>
+	<link href="https://fonts.googleapis.com/css?family==Amatic+SC|Quicksand" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>TIC TAC TOE</title>
+</head>
+<body id='gradient'>
+	<div class="container-game">
+		<div class="header-game">
+			<h1>TIC-TAC-TOE</h1>
+		</div>
+		<div class="board">
+			<div id="s00" onclick="logic('s00',0,0)"></div>
+			<div id="s01" onclick="logic('s01',0,1)"></div>
+			<div id="s02" onclick="logic('s02',0,2)"></div>
+			<div id="s10" onclick="logic('s10',1,0)"></div>
+			<div id="s11" onclick="logic('s11',1,1)"></div>
+			<div id="s12" onclick="logic('s12',1,2)"></div>
+			<div id="s20" onclick="logic('s20',2,0)"></div>
+			<div id="s21" onclick="logic('s21',2,1)"></div>
+			<div id="s22" onclick="logic('s22',2,2)"></div>
+		</div>
+		<div id="res_button">
+			<button class="button" onclick="reset()"><span>RESET</span></button>
+		</div>
+	</div>
+	<div class="winner-display">
+		<span id="text-top">Player<br><br></span>
+		<span id="text-bottom">X</span>
+	</div>
+</body>
+</html>
