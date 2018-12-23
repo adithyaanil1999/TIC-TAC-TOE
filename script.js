@@ -17,6 +17,8 @@ function reset(){
 	document.getElementById("text-top").style.color='white';
 	document.getElementById("text-top").innerHTML='Player<br><br>';
 	document.getElementById("text-bottom").textContent=player[selector];
+	document.querySelector(".board").style.display='block';
+
 	for(i=0;i<3;i++)
 	{
 		for(j=0;j<3;j++)
@@ -186,6 +188,8 @@ function logic(id,i,j){
 		document.getElementById("text-top").style.color='yellow';
 		document.getElementById("text-top").innerHTML='Winner!<br><br>';
 		document.getElementById("text-bottom").textContent=winner;
+		document.querySelector(".board").style.display='none';
+		
 	}
 
 	
