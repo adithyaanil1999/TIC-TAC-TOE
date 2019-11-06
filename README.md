@@ -1,3 +1,3 @@
 # TIC-TAC-TOE
 A HTML/javascript/CSS Tic-Tac-Toe game
-https://koticcat.github.io/TIC-TAC-TOE/
+https://adithyaanil1999.github.io/TIC-TAC-TOE/
